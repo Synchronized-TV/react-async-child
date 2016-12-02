@@ -11,6 +11,10 @@
     "storybook": "start-storybook -p 9001",
     "docs": "rdr src/ --readmeFile README.md --exclude"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Synchronized-TV/react-async-child.git"
+  },
   "author": "The Synchronized team",
   "devDependencies": {
     "@kadira/storybook": "^2.24.0",
