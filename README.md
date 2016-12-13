@@ -10,7 +10,7 @@ import AsyncChild from 'react-async-child';
 import Example from './Example';
 
 const Demo = () => (
-  <AsyncChild>
+  <AsyncChild default={ <div>Loading</div> }>
     { async () => <Example title={ await myAsyncFunc() }/> }
   </AsyncChild>
 );
