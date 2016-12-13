@@ -102,5 +102,5 @@ An async function that returns a React element.
 - **required:** false
 - **type:** node 
 
-A React element to render until the async function has not been resolved.
+A React element to render until the async function has been resolved.
 <!-- react-components-docs:end -->
